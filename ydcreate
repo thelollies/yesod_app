@@ -1,0 +1,2 @@
+#! /bin/zsh
+docker run --name yesod -p 3000 -tiv /home/georgia/repositories/haskell/yesod/scaffold:/code --link pgrunning:db gdoteof/yesod-postgres /bin/bash -c "cd /code && yesod devel"

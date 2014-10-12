@@ -15,5 +15,6 @@ Staging:
   <<: *defaults
 
 Production:
-  #approot: "http://www.example.com"
+  port: 80
+  approot: "http://www.slackandcode.com"
   <<: *defaults
